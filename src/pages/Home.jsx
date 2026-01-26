@@ -9,7 +9,7 @@ export default function Home() {
       {/* <Hero />
       <FeatureCards />
       <ProgramSection /> */}
-        <Navbar />
+        {/* <Navbar /> */}
         <Hero />
         <FeatureCards />
         <ProgramSection />
