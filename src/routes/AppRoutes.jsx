@@ -1,20 +1,33 @@
 import { Routes, Route } from "react-router-dom";
-import Dashboard from "../pages/Dashboard";
-import Courses from "../pages/Courses";
-// import Assignments from "../pages/Assignments";
-// import Notes from "../pages/Notes";
-import MainLayout from "../components/layout/MainLayout";
+import Courses from "../pages/learning/Courses";
+import CourseDetail from "../pages/learning/CourseDetail";
+import Notes from "../pages/learning/Notes";
+import NoteDetail from "../pages/learning/NoteDetail";
+import Assignments from "../pages/learning/Assignments";
+import AssignmentDetail from "../pages/learning/AssignmentDetail";
+import MainLayout from "../layout/MainLayout";
+import Home from "../pages/Home";
+import Playlists from "../pages/youtube/Playlists";
+import PlaylistVideos from "../pages/youtube/PlaylistVideos";
 
 const AppRoutes = () => {
   return (
-    <MainLayout>
-      <Routes>
-        <Route path="/" element={<Dashboard />} />
+    <Routes>
+      <Route element={<MainLayout />}>
+        <Route path="/" element={<Home />} />
         <Route path="/courses" element={<Courses />} />
-        {/* <Route path="/assignments" element={<Assignments />} /> */}
-        {/* <Route path="/notes" element={<Notes />} /> */}
-      </Routes>
-    </MainLayout>
+        <Route path="/courses/:slug" element={<CourseDetail />} />
+
+        <Route path="/notes" element={<Notes />} />
+        <Route path="/notes/:slug" element={<NoteDetail />} />
+
+        <Route path="/assignments" element={<Assignments />} />
+        <Route path="/assignments/:slug" element={<AssignmentDetail />} />
+
+        <Route path="/youtube" element={<Playlists />} />
+        <Route path="/youtube/:playlistId" element={<PlaylistVideos />} />
+      </Route>
+    </Routes>
   );
 };
 

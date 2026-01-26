@@ -17,7 +17,7 @@ export default function Hero() {
         <h1 className="text-[40px] md:text-[52px] leading-tight font-semibold text-[#1F2937] max-w-3xl">
           A student portal that <br />
           works like an{" "}
-          <span className="bg-green-100 text-[#2BBBAD] px-4 py-1 rounded-full">
+          <span className="bg-green-100 text-[#2BBBAD] px-4 py-1 rounded-full text-[20px]">
             Organiser
           </span>
         </h1>
