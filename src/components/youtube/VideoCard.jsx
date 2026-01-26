@@ -9,7 +9,7 @@ export default function VideoCard({ video, onPlay }) {
       <img
         src={thumbnails.medium.url}
         alt={title}
-        className="w-32 rounded-lg"
+        className="w-32 rounded-lg p-5"
       />
 
       <div>

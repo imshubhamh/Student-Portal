@@ -4,11 +4,11 @@ import Navbar from "../components/Navbar";
 export default function MainLayout() {
   return (
     <div className="min-h-screen bg-bg">
-      <header className="border-b">
+      {/* <header className="border-b">
         <div className="max-w-7xl mx-auto px-6 py-4">
           <Navbar />
         </div>
-      </header>
+      </header> */}
 
       <main className="max-w-7xl mx-auto px-6 py-8">
         <Outlet />
