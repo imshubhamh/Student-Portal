@@ -3,7 +3,7 @@ export default function FeatureCard({ variant, rotate }) {
       <div
         className={`
           bg-[#F7F8F7]
-          rounded-[24px]
+          rounded-[20px]
           p-6
           border border-[#E6E7E6]
           shadow-[0_20px_40px_rgba(0,0,0,0.08)]

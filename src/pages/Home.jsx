@@ -2,6 +2,9 @@ import Hero from "../components/Hero";
 import FeatureCards from "../components/FeatureCards";
 import Navbar from "../components/Navbar";
 import ProgramSection from "../components/Program/ProgramSection";
+import CTASection from "../components/CTASection";
+import LearningPath from "../components/LearningPath";
+import Testimonials from "../components/Testimonials";
 
 export default function Home() {
   return (
@@ -13,6 +16,9 @@ export default function Home() {
         <Hero />
         <FeatureCards />
         <ProgramSection />
+        <LearningPath />
+        <Testimonials />
+        <CTASection />
     </div>
   );
 }
