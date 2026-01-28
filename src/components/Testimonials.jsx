@@ -119,7 +119,7 @@ function classNames(...classes) {
 
 export default function Testimonials() {
   return (
-    <div className="relative isolate py-24">
+    <div className="relative isolate pb-16">
       <div
         aria-hidden="true"
         className="absolute inset-x-0 top-1/2 -z-10 -translate-y-1/2 transform-gpu overflow-hidden opacity-30 blur-3xl"
@@ -134,7 +134,7 @@ export default function Testimonials() {
       </div>
       <div
         aria-hidden="true"
-        className="absolute inset-x-0 top-0 -z-10 flex transform-gpu overflow-hidden pt-32 opacity-25 blur-3xl sm:pt-40 xl:justify-end"
+        className="absolute inset-x-0 top-0 -z-10 flex transform-gpu overflow-hidden opacity-25 blur-3xl xl:justify-end"
       >
         <div
           style={{

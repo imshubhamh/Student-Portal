@@ -160,7 +160,7 @@ const LearningPath = () => {
                   </div>
 
                   {/* Fake dashboard card floating over the illustration */}
-                  <div className="lp-fade-in mt-2 rounded-[28px] bg-white/95 shadow-[0_22px_60px_rgba(15,23,42,0.18)] ring-1 ring-gray-100/80 overflow-hidden">
+                  <div className="lp-fade-in mt-2 rounded-2xl bg-white/95 shadow-md ring-1 ring-gray-100/80 overflow-hidden">
                     {/* Card header */}
                     <div className="flex items-center justify-between px-6 py-4 border-b border-gray-100">
                       <div className="flex items-center gap-3">

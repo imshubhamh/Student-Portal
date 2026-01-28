@@ -40,13 +40,14 @@ export default function ProgramSection() {
           branches={["Computer Science", "Mechanical", "Electrical"]}
         />
 
-        <YearSelector years={[1, 2, 3]} />
+        <YearSelector years={[1, 2, 3, 4]} />
 
         <SemesterSelector
           semesters={[
             { number: 1 },
             { number: 2 },
             { number: 3 },
+           
           ]}
         />
 

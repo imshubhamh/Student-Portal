@@ -5,6 +5,7 @@ import ProgramSection from "../components/Program/ProgramSection";
 import CTASection from "../components/CTASection";
 import LearningPath from "../components/LearningPath";
 import Testimonials from "../components/Testimonials";
+import WhyChooseUs from "../components/WhyChooseUs";
 
 export default function Home() {
   return (
@@ -17,6 +18,7 @@ export default function Home() {
         <FeatureCards />
         <ProgramSection />
         <LearningPath />
+        <WhyChooseUs />
         <Testimonials />
         <CTASection />
     </div>
