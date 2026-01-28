@@ -4,7 +4,7 @@ export default function PageHeader({ title, desc }) {
       <h1 className="text-[36px] md:text-[44px] font-semibold text-[#1F2937]">
         {title}
       </h1>
-      <p className="mt-3 text-gray-500 max-w-xl mx-auto">
+      <p className=" text-gray-500 max-w-xl mx-auto">
         {desc}
       </p>
     </div>
