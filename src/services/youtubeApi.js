@@ -14,3 +14,12 @@ export async function fetchPlaylistVideos(playlistId) {
   );
   return res.json();
 }
+
+
+export async function fetchVideoDetails(videoId) {
+  const res = await fetch(
+    `${BASE_URL}/videos?part=snippet&id=${videoId}&key=${API_KEY}`
+  );
+  const data = await res.json();
+  return data.items?.[0]?.snippet;
+}

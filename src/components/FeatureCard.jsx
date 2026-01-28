@@ -4,7 +4,7 @@ export default function FeatureCard({ variant, rotate }) {
         className={`
           bg-[#F7F8F7]
           rounded-[20px]
-          p-6
+          p-4
           border border-[#E6E7E6]
           shadow-[0_20px_40px_rgba(0,0,0,0.08)]
           transform ${rotate}

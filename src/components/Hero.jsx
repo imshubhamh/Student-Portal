@@ -1,6 +1,6 @@
 export default function Hero() {
     return (
-      <div className="flex flex-col items-center text-center mt-5 mb-12">
+      <div className="flex flex-col items-center text-center mt-0 mb-12">
         
         {/* TOP ANNOUNCEMENT PILL */}
         <div className="mb-4">
@@ -14,7 +14,7 @@ export default function Hero() {
         </div>
   
         {/* MAIN HEADING */}
-        <h1 className="text-[40px] md:text-[52px] leading-tight font-semibold text-[#1F2937] max-w-4xl">
+        <h1 className="text-[40px] md:text-[40px] leading-tight font-semibold text-[#1F2937] max-w-4xl">
           A student portal that <br />
           works like an{" "}
           <span className="bg-green-100 text-[#2BBBAD] px-4 py-1 rounded-full text-[20px]">
@@ -42,7 +42,7 @@ export default function Hero() {
             className="px-6 py-2 rounded-full text-sm border
             border-[#E5E7EB] bg-white shadow-sm hover:bg-gray-50 transition"
           >
-            Book a Demo
+            Book a Meetings
           </button>
         </div>
   

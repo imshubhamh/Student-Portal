@@ -16,7 +16,7 @@ export default function Home() {
         {/* <Navbar /> */}
         <Hero />
         <FeatureCards />
-        <ProgramSection />
+        {/* <ProgramSection /> */}
         <LearningPath />
         <WhyChooseUs />
         <Testimonials />
