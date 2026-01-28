@@ -8,43 +8,92 @@ export default function Card({
   return (
     <div
       onClick={onClick}
-      className="
-        cursor-pointer
-        bg-white
-        rounded-2xl
-        border border-[#E5E7EB]
-        overflow-hidden
-        shadow-sm
-        group
-      "
+      className="group cursor-pointer relative mt-16 flex justify-center"
     >
-      {/* Thumbnail */}
-      <div className="relative h-40 overflow-hidden">
-        <img
-          src={image}
-          alt={title}
-          className="w-full h-full object-cover"
-        />
-        <span className="
-          absolute top-3 left-3
-          bg-white/90 text-xs font-medium
-          px-3 py-1 rounded-full
-        ">
-          {meta}
-        </span>
+      {/* Floating Preview Images */}
+      <div className="absolute -top-16 left-6 right-6 flex justify-center pointer-events-none">
+        <div className="relative">
+          {/* Back card */}
+          <img
+            src={image}
+            alt=""
+            className="
+              absolute -left-6 top-4
+              h-28 w-60
+              rounded-xl
+              object-cover
+              opacity-40
+              blur-[1px]
+              scale-95
+            "
+          />
+
+          {/* Middle card */}
+          <img
+            src={image}
+            alt=""
+            className="
+              absolute left-6 top-2
+              h-28 w-80
+              rounded-xl
+              object-cover
+              opacity-70
+              scale-95
+            "
+          />
+
+          {/* Front card */}
+          <img
+            src={image}
+            alt=""
+            className="
+              relative
+              h-32 w-[280px] 
+              rounded-xl
+              object-cover
+              shadow-xl
+              transition-transform duration-300
+              group-hover:-translate-y-2
+            "
+          />
+        </div>
       </div>
 
-      {/* Content */}
-      <div className="p-5">
-        <h3 className="font-semibold text-[#1F2937] text-lg">
+      {/* Main Card */}
+      <div
+        className="
+          relative
+          w-[280px] md:w-[350px]
+          rounded-xl bg-white
+          border border-gray-200
+          py-5 px-6
+          shadow-sm
+          transition-all duration-300
+          group-hover:shadow-lg
+        "
+      >
+
+        {/* Icons Row */}
+        <div className="flex gap-2 mb-4">
+          <span className="h-9 w-9 rounded-lg bg-gray-100 flex items-center justify-center text-sm font-semibold">
+            📘
+          </span>
+          <span className="h-9 w-9 rounded-lg bg-gray-100 flex items-center justify-center text-sm font-semibold">
+            ⚙️
+          </span>
+        </div>
+
+        {/* Content */}
+        <h3 className="text-xl font-semibold text-gray-900">
           {title}
         </h3>
-        <p className="text-sm text-gray-500 mt-2">
+
+        <p className="text-sm text-gray-500 leading-relaxed">
           {desc}
         </p>
 
-        <div className="mt-4 text-[#2BBBAD] font-medium text-sm">
-          View Course →
+        <div className="mt-4 text-sm font-medium text-indigo-600">
+          {meta}
         </div>
       </div>
     </div>
