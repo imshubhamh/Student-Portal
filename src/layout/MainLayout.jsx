@@ -1,6 +1,7 @@
 import { Outlet } from "react-router-dom";
-import Navbar from "../components/Navbar";
+import Navbar from "./Navbar";
 import WhatsAppButton from "../components/WhatsAppButton";
+import Footer from "./Footer";
 
 export default function MainLayout() {
   return (
@@ -11,9 +12,11 @@ export default function MainLayout() {
         </div>
       </header>
 
-      <main className="max-w-7xl mx-auto px-6 py-8">
+      <main className="max-w-7xl mx-auto px-6 py-2">
         <Outlet />
       </main>
+
+      <Footer />
 
       <WhatsAppButton />
     </div>

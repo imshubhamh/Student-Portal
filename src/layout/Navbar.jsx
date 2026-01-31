@@ -30,46 +30,22 @@ export default function Navbar() {
           title: "Courses",
           desc: "Access enrolled courses and lectures",
           icon: GraduationCap,
-          path: "/courses",
+          path: "/learning/courses",
         },
         {
           title: "Notes",
           desc: "Download and manage study notes",
           icon: StickyNote,
-          path: "/notes",
+          path: "/learning/notes",
         },
         {
           title: "Assignments",
           desc: "View tasks, deadlines and submissions",
           icon: ClipboardList,
-          path: "/assignments",
+          path: "/learning/assignments",
         },
       ],
     },
-    // {
-    //   label: "Progress",
-    //   icon: BarChart3,
-    //   items: [
-    //     {
-    //       title: "Exams",
-    //       desc: "Upcoming exams and schedules",
-    //       icon: FileText,
-    //       path: "/exams",
-    //     },
-    //     {
-    //       title: "Results",
-    //       desc: "Check marks and performance",
-    //       icon: TrendingUp,
-    //       path: "/results",
-    //     },
-    //     {
-    //       title: "Attendance",
-    //       desc: "Track your attendance record",
-    //       icon: CalendarCheck,
-    //       path: "/attendance",
-    //     },
-    //   ],
-    // },
     {
       label: "Results",
       icon: LifeBuoy,
@@ -95,7 +71,7 @@ export default function Navbar() {
       ],
     },
 
-      {
+    {
       label: "Youtube",
       icon: LifeBuoy,
       items: [

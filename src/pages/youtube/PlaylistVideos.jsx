@@ -33,7 +33,7 @@ useEffect(() => {
   }, [playlistId]);
 
   return (
-    <div className="grid lg:grid-cols-3 gap-8">
+    <div className="grid lg:grid-cols-3 gap-8 pt-20 pb-20">
       {/* PLAYER */}
       <div className="lg:col-span-2 space-y-4">
         {currentVideo && (

@@ -1,6 +1,6 @@
 import Hero from "../components/home/Hero";
 import FeatureCards from "../components/home/FeatureCards";
-import Navbar from "../components/Navbar";
+import Navbar from "../layout/Navbar";
 import ProgramSection from "../components/Program/ProgramSection";
 import CTASection from "../components/CTASection";
 import LearningPath from "../components/home/LearningPath";

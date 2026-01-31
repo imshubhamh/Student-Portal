@@ -1,16 +1,32 @@
+import { useEffect, useMemo, useState } from "react";
 import { useNavigate } from "react-router-dom";
 import PageHeader from "../../components/common/PageHeader";
 import Card from "../../components/common/Card";
 
 export default function Courses() {
   const navigate = useNavigate();
+   const [query, setQuery] = useState("");
 
   return (
     <>
-      <PageHeader
-        title="Your Courses"
-        desc="All your enrolled courses in one organised place."
-      />
+      <div className="mb-20">
+        <PageHeader
+          title="Your Courses"
+          desc="All your enrolled courses in one organised place."
+        />
+        <div className="max-w-md mx-auto">
+          <input
+            value={query}
+            onChange={(e) => setQuery(e.target.value)}
+            placeholder="Search playlists..."
+            className="
+              w-full border border-[#E5E7EB]
+              rounded-xl px-4 py-2
+              focus:outline-none focus:ring-2 focus:ring-[#2BBBAD]
+            "
+          />
+        </div>
+      </div>
 
       <div className="grid sm:grid-cols-2 lg:grid-cols-3 gap-8">
         <Card
