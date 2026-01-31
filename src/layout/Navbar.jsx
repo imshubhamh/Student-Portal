@@ -30,22 +30,23 @@ export default function Navbar() {
           title: "Courses",
           desc: "Access enrolled courses and lectures",
           icon: GraduationCap,
-          path: "/courses",
+          path: "/learning/courses",
         },
         {
           title: "Notes",
           desc: "Download and manage study notes",
           icon: StickyNote,
-          path: "/notes",
+          path: "/learning/notes",
         },
         {
           title: "Assignments",
           desc: "View tasks, deadlines and submissions",
           icon: ClipboardList,
-          path: "/assignments",
+          path: "/learning/assignments",
         },
       ],
     },
+
     {
       label: "Progress",
       icon: BarChart3,
@@ -95,7 +96,7 @@ export default function Navbar() {
       ],
     },
 
-      {
+    {
       label: "Youtube",
       icon: LifeBuoy,
       items: [

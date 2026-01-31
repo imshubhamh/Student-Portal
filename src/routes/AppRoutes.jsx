@@ -9,19 +9,21 @@ import MainLayout from "../layout/MainLayout";
 import Home from "../pages/Home";
 import Playlists from "../pages/youtube/Playlists";
 import PlaylistVideos from "../pages/youtube/PlaylistVideos";
+import Learning from "../pages/learning/Learning";
 
 const AppRoutes = () => {
   return (
     <Routes>
       <Route element={<MainLayout />}>
         <Route path="/" element={<Home />} />
-        <Route path="/courses" element={<Courses />} />
+         <Route path="learning/:slug" element={<Learning />} />
+        {/* <Route path="/courses" element={<Courses />} /> */}
         <Route path="/courses/:slug" element={<CourseDetail />} />
 
-        <Route path="/notes" element={<Notes />} />
+        {/* <Route path="/notes" element={<Notes />} /> */}
         <Route path="/notes/:slug" element={<NoteDetail />} />
 
-        <Route path="/assignments" element={<Assignments />} />
+        {/* <Route path="/assignments" element={<Assignments />} /> */}
         <Route path="/assignments/:slug" element={<AssignmentDetail />} />
 
         <Route path="/youtube" element={<Playlists />} />

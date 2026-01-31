@@ -64,7 +64,7 @@ export default function Card({
         className="
           relative
           w-[280px] md:w-[350px]
-          rounded-xl bg-white
+          rounded-lg bg-white
           border border-gray-200
           py-5 px-6
           shadow-sm
@@ -75,10 +75,10 @@ export default function Card({
 
         {/* Icons Row */}
         <div className="flex gap-2 mb-4">
-          <span className="h-9 w-9 rounded-lg bg-gray-100 flex items-center justify-center text-sm font-semibold">
+          <span className="flex items-center justify-center text-sm font-semibold">
             📘
           </span>
-          <span className="h-9 w-9 rounded-lg bg-gray-100 flex items-center justify-center text-sm font-semibold">
+          <span className="flex items-center justify-center text-sm font-semibold">
             ⚙️
           </span>
         </div>
@@ -92,7 +92,7 @@ export default function Card({
           {desc}
         </p>
 
-        <div className="mt-4 text-sm font-medium text-indigo-600">
+        <div className="mt-4 text-sm font-medium text-[#2BBBAD]">
           {meta}
         </div>
       </div>
