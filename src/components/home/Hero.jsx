@@ -1,6 +1,6 @@
 export default function Hero() {
     return (
-      <div className="flex flex-col items-center text-center mt-0 mb-12">
+      <div className="flex flex-col items-center text-center mt-7 mb-12">
         
         {/* TOP ANNOUNCEMENT PILL */}
         <div className="mb-4">

@@ -1,11 +1,12 @@
-import Hero from "../components/Hero";
-import FeatureCards from "../components/FeatureCards";
+import Hero from "../components/home/Hero";
+import FeatureCards from "../components/home/FeatureCards";
 import Navbar from "../components/Navbar";
 import ProgramSection from "../components/Program/ProgramSection";
 import CTASection from "../components/CTASection";
-import LearningPath from "../components/LearningPath";
-import Testimonials from "../components/Testimonials";
-import WhyChooseUs from "../components/WhyChooseUs";
+import LearningPath from "../components/home/LearningPath";
+import Testimonials from "../components/home/Testimonials";
+import WhyChooseUs from "../components/home/WhyChooseUs";
+import TeamsSection from "../components/home/TeamsSection";
 
 export default function Home() {
   return (
@@ -19,6 +20,7 @@ export default function Home() {
         {/* <ProgramSection /> */}
         <LearningPath />
         <WhyChooseUs />
+        <TeamsSection />
         <Testimonials />
         <CTASection />
     </div>
