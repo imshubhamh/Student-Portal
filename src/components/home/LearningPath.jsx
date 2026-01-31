@@ -64,15 +64,7 @@ const steps = [
     image:
       'https://images.pexels.com/photos/7648508/pexels-photo-7648508.jpeg?auto=compress&cs=tinysrgb&w=1600',
   },
-  // {
-  //   id: 'tracking',
-  //   name: 'Track your progress',
-  //   description:
-  //     'Visual dashboards to stay on track and motivated.',
-  //   icon: ChartBarIcon,
-  //   image:
-  //     'https://tailwindcss.com/plus-assets/img/component-images/dark-project-app-screenshot.png',
-  // },
+
 ]
 
 export default function LearningPath() {
@@ -135,7 +127,7 @@ export default function LearningPath() {
               </dl>
             </div>
 
-            {/* RIGHT IMAGE (EXACT STYLE LIKE EXAMPLE) */}
+            {/* RIGHT IMAGE*/}
             <img
               key={active.id}
               alt="Learning preview"

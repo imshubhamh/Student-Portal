@@ -8,6 +8,8 @@ export default function FeatureCard({ variant, rotate }) {
           border border-[#E6E7E6]
           shadow-[0_20px_40px_rgba(0,0,0,0.08)]
           transform ${rotate}
+          h-60
+          w-56
         `}
       >
         {variant === "event" && (

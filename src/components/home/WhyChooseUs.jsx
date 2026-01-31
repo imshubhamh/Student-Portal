@@ -55,7 +55,7 @@ export default function WhyChooseUsAlt() {
 
         {/* LEFT */}
         <div className="lg:sticky lg:top-32 h-fit">
-          <p className="text-sm font-medium text-[#2BBBAD]">
+          <p className="text-sm font-medium text-[#2BBBAD] border-b p-2">
             WHY CHOOSE US
           </p>
 
@@ -68,6 +68,22 @@ export default function WhyChooseUsAlt() {
             businesses. Every feature is designed to remove friction and help
             teams move faster.-AAA
           </p>
+
+           <div className="mt-6 flex gap-4">
+          <button
+            className="flex items-center gap-2 bg-[#2BBBAD] text-white
+            px-6 py-2 rounded-full text-sm shadow-md hover:opacity-90 transition"
+          >
+            Get Started
+          </button>
+  
+          <button
+            className="px-6 py-2 rounded-full text-sm border
+            border-[#E5E7EB] bg-white shadow-sm hover:bg-gray-50 transition"
+          >
+            Book a Meetings
+          </button>
+        </div>
         </div>
 
         {/* RIGHT */}

@@ -18,7 +18,7 @@ export default function Home() {
         <Hero />
         <FeatureCards />
         {/* <ProgramSection /> */}
-        <LearningPath />
+        {/* <LearningPath /> */}
         <WhyChooseUs />
         <TeamsSection />
         <Testimonials />

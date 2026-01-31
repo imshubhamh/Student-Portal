@@ -46,52 +46,52 @@ export default function Navbar() {
         },
       ],
     },
+    // {
+    //   label: "Progress",
+    //   icon: BarChart3,
+    //   items: [
+    //     {
+    //       title: "Exams",
+    //       desc: "Upcoming exams and schedules",
+    //       icon: FileText,
+    //       path: "/exams",
+    //     },
+    //     {
+    //       title: "Results",
+    //       desc: "Check marks and performance",
+    //       icon: TrendingUp,
+    //       path: "/results",
+    //     },
+    //     {
+    //       title: "Attendance",
+    //       desc: "Track your attendance record",
+    //       icon: CalendarCheck,
+    //       path: "/attendance",
+    //     },
+    //   ],
+    // },
     {
-      label: "Progress",
-      icon: BarChart3,
-      items: [
-        {
-          title: "Exams",
-          desc: "Upcoming exams and schedules",
-          icon: FileText,
-          path: "/exams",
-        },
-        {
-          title: "Results",
-          desc: "Check marks and performance",
-          icon: TrendingUp,
-          path: "/results",
-        },
-        {
-          title: "Attendance",
-          desc: "Track your attendance record",
-          icon: CalendarCheck,
-          path: "/attendance",
-        },
-      ],
-    },
-    {
-      label: "Support",
+      label: "Results",
       icon: LifeBuoy,
       items: [
         {
-          title: "Community",
+          title: "Batch 1.0.0",
           desc: "Ask doubts and discuss with peers",
           icon: Users,
-          path: "/community",
+          path: "/results",
         },
-        {
-          title: "Help Center",
-          desc: "FAQs and student support",
-          icon: HelpCircle,
-          path: "/help",
-        },
-        {
-          title: "Contact Mentor",
-          desc: "Connect with teachers or mentors",
-          icon: UserCircle,
-          path: "/mentor",
-        },
+        // {
+        //   title: "Help Center",
+        //   desc: "FAQs and student support",
+        //   icon: HelpCircle,
+        //   path: "/help",
+        // },
+        // {
+        //   title: "Contact Mentor",
+        //   desc: "Connect with teachers or mentors",
+        //   icon: UserCircle,
+        //   path: "/mentor",
+        // },
       ],
     },
 
@@ -114,8 +114,8 @@ export default function Navbar() {
       {/* MAIN BAR */}
       <div className="flex items-center justify-between">
         {/* LOGO */}
-        <NavLink to="/" className="font-bold text-dark text-lg">
-          SPYIschool
+        <NavLink to="/" className="font-semibold  text-md">
+          SPY! Web
         </NavLink>
 
         {/* DESKTOP NAV */}
@@ -134,14 +134,14 @@ export default function Navbar() {
                 <div
                   className="
                     absolute top-full left-0 mt-3 w-80
-                    bg-white rounded-2xl border border-gray-200
+                    bg-white rounded-lg border border-gray-200
                     shadow-xl z-50
                     opacity-0 invisible
                     group-hover:opacity-100 group-hover:visible
                     transition-all duration-200
                   "
                 >
-                  <div className="p-4 space-y-3">
+                  <div className="p-2 space-y-1">
                     {nav.items.map((item, i) => {
                       const ItemIcon = item.icon;
                       return (
