@@ -55,20 +55,33 @@ export default function Navbar() {
           desc: "Ask doubts and discuss with peers",
           icon: Users,
           path: "/results",
-        },
-        // {
-        //   title: "Help Center",
-        //   desc: "FAQs and student support",
-        //   icon: HelpCircle,
-        //   path: "/help",
-        // },
-        // {
-        //   title: "Contact Mentor",
-        //   desc: "Connect with teachers or mentors",
-        //   icon: UserCircle,
-        //   path: "/mentor",
-        // },
+        }
       ],
+    },
+     {
+      label: "Projects",
+      icon: LifeBuoy,
+      items: [
+        {
+          title: "Frontend",
+          desc: "Ask doubts and discuss with peers",
+          icon: Users,
+          path: "/results",
+        },
+          {
+          title: "Backend",
+          desc: "Ask doubts and discuss with peers",
+          icon: Users,
+          path: "/results",
+        },
+         {
+          title: "Full Stack",
+          desc: "Ask doubts and discuss with peers",
+          icon: Users,
+          path: "/results",
+        }
+      ],
+       
     },
 
     {
@@ -90,8 +103,8 @@ export default function Navbar() {
       {/* MAIN BAR */}
       <div className="flex items-center justify-between">
         {/* LOGO */}
-        <NavLink to="/" className="font-semibold  text-md">
-          SPY! Web
+        <NavLink to="/" className="text-lg font-semibold text-slate-900 hover:opacity-80">
+            SPYI<span className="font-normal text-slate-600">WEB</span>
         </NavLink>
 
         {/* DESKTOP NAV */}
@@ -151,7 +164,7 @@ export default function Navbar() {
         <div className="hidden md:block">
           <NavLink
             to="/login"
-            className="bg-accent text-white px-5 py-2 rounded-full text-sm shadow-sm"
+            className="bg-black text-white px-5 py-2 rounded-full text-sm shadow-sm"
           >
             Login
           </NavLink>
@@ -221,7 +234,7 @@ export default function Navbar() {
           <div className="pt-4 border-t">
             <NavLink
               to="/login"
-              className="block text-center bg-accent text-white py-2 rounded-full"
+              className="block text-center bg-black text-white py-2 rounded-full"
             >
               Login
             </NavLink>

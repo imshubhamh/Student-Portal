@@ -17,7 +17,7 @@ export default function Hero() {
         <h1 className="text-[40px] md:text-[40px] leading-tight font-semibold text-[#1F2937] max-w-4xl">
           A student portal that <br />
           works like an{" "}
-          <span className="bg-green-100 text-[#2BBBAD] px-4 py-1 rounded-full text-[20px]">
+          <span className="bg-yellow-100  px-4 py-1 rounded-full text-[20px]">
             Organiser
           </span>
         </h1>
@@ -30,7 +30,7 @@ export default function Hero() {
         </p>
   
         {/* CTA BUTTONS */}
-        <div className="mt-6 flex gap-4">
+        {/* <div className="mt-6 flex gap-4">
           <button
             className="flex items-center gap-2 bg-[#2BBBAD] text-white
             px-6 py-2 rounded-full text-sm shadow-md hover:opacity-90 transition"
@@ -44,7 +44,7 @@ export default function Hero() {
           >
             Book a Meetings
           </button>
-        </div>
+        </div> */}
   
       </div>
     );

@@ -9,7 +9,7 @@ export default function FeatureCard({ variant, rotate }) {
           shadow-[0_20px_40px_rgba(0,0,0,0.08)]
           transform ${rotate}
           h-60
-          w-56
+          w-50
         `}
       >
         {variant === "event" && (
@@ -21,7 +21,7 @@ export default function FeatureCard({ variant, rotate }) {
             </div>
   
             <div className="bg-white rounded-xl p-4 mb-4 shadow-sm">
-              <button className="bg-[#2BBBAD] text-white text-xs px-3 py-1 rounded-full">
+              <button className="bg-yellow-200 text-black text-xs px-3 py-1 rounded-full">
                 Create Event
               </button>
             </div>
@@ -42,7 +42,7 @@ export default function FeatureCard({ variant, rotate }) {
               <div className="text-xs bg-gray-100 p-2 rounded-lg mb-2">
                 👋 Hey, thanks for reaching out!
               </div>
-              <div className="text-xs bg-green-100 p-2 rounded-lg w-4/5">
+              <div className="text-xs bg-yellow-200 p-2 rounded-lg w-4/5 text-black">
                 Happy to help you 🙂
               </div>
             </div>
@@ -64,7 +64,7 @@ export default function FeatureCard({ variant, rotate }) {
                 <div className="w-3 bg-gray-200 h-8 rounded"></div>
                 <div className="w-3 bg-gray-200 h-12 rounded"></div>
                 <div className="w-3 bg-gray-200 h-6 rounded"></div>
-                <div className="w-3 bg-[#2BBBAD] h-16 rounded"></div>
+                <div className="w-3 bg-yellow-200 h-16 rounded"></div>
               </div>
             </div>
   
