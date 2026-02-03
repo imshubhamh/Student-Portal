@@ -2,7 +2,7 @@ import React from 'react'
 
 const CTASection = () => {
     return (
-        <div className="overflow-hidden py-16 border rounded-2xl shadow-[0_10px_30px_rgba(43,187,173,0.1)]">
+        <div className="overflow-hidden py-16 border rounded-2xl shadow-[0_10px_30px_rgba(43,187,173,0.1)] mb-20">
             <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
                 <div className="grid lg:grid-cols-2 gap-10 items-center">
 

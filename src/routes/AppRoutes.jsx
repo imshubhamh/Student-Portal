@@ -10,13 +10,14 @@ import Home from "../pages/Home";
 import Playlists from "../pages/youtube/Playlists";
 import PlaylistVideos from "../pages/youtube/PlaylistVideos";
 import Learning from "../pages/learning/Learning";
+import Exams from "../pages/progress/Exams";
 
 const AppRoutes = () => {
   return (
     <Routes>
       <Route element={<MainLayout />}>
         <Route path="/" element={<Home />} />
-         <Route path="learning/:slug" element={<Learning />} />
+         <Route path="/learning/:slug" element={<Learning />} />
         {/* <Route path="/courses" element={<Courses />} /> */}
         <Route path="/courses/:slug" element={<CourseDetail />} />
 
@@ -25,6 +26,8 @@ const AppRoutes = () => {
 
         {/* <Route path="/assignments" element={<Assignments />} /> */}
         <Route path="/assignments/:slug" element={<AssignmentDetail />} />
+
+        <Route path="/exams" element={<Exams />} />
 
         <Route path="/youtube" element={<Playlists />} />
         <Route path="/youtube/:playlistId" element={<PlaylistVideos />} />

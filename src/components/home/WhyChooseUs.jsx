@@ -1,51 +1,45 @@
 import {
   Layers,
   ShieldCheck,
-  Code2,
   TrendingUp,
-  Zap,
   Globe,
   Users,
-  BarChart3,
-  Settings,
-  LifeBuoy
+BookOpen
 } from "lucide-react";
 
 const REASONS = [
   {
-    title: "One Unified Platform",
-    desc: "Operations, billing, marketing, support, security, and data — all managed from a single system with shared context and zero duplication.",
+    title: "All-in-One Student Portal",
+    desc: "Courses, notes, assignments, exams, progress tracking, and announcements — everything students need in one place.",
     icon: Layers,
   },
   {
-    title: "Enterprise-Grade Security",
-    desc: "Built-in authentication, access control, audit logs, IP whitelisting, and compliance-ready architecture from day one.",
+    title: "Secure Student Access",
+    desc: "Role-based login for students and teachers, protected data, secure authentication, and privacy-first architecture.",
     icon: ShieldCheck,
   },
   {
-    title: "Developer-First Architecture",
-    desc: "Modern APIs, webhooks, logs, and documentation designed for fast integrations and long-term maintainability.",
-    icon: Code2,
+    title: "Structured Learning System",
+    desc: "Well-organized modules, chapter-wise notes, downloadable resources, and clear learning paths for every course.",
+    icon: BookOpen,
   },
   {
-    title: "Designed to Scale",
-    desc: "From early-stage startups to global teams, LaunchXY adapts without rewrites, migrations, or platform limits.",
+    title: "Progress & Performance Tracking",
+    desc: "Track course completion, test scores, attendance, and learning milestones in real time.",
     icon: TrendingUp,
   },
   {
-    title: "Global Ready",
-    desc: "Multi-region architecture, localization, timezone handling, and international compliance support built-in.",
+    title: "Anytime, Anywhere Learning",
+    desc: "Access courses and notes across devices with a smooth, responsive experience — study on your schedule.",
     icon: Globe,
   },
   {
-    title: "Built for Teams",
-    desc: "Roles, permissions, internal notes, collaboration tools, and real-time updates keep everyone aligned.",
+    title: "Student-Teacher Collaboration",
+    desc: "Doubt discussions, announcements, feedback, and shared resources to keep learning interactive and connected.",
     icon: Users,
   },
-  
- 
-  
 ];
+
 
 
 export default function WhyChooseUsAlt() {
@@ -64,7 +58,7 @@ export default function WhyChooseUsAlt() {
           </h2>
 
           <p className="mt-6 text-base text-gray-500 max-w-xl">
-            AAA-LaunchXY is not just software — it’s infrastructure for modern
+            AAA-SPYIWEB is not just software — it’s infrastructure for modern
             businesses. Every feature is designed to remove friction and help
             teams move faster.-AAA
           </p>
