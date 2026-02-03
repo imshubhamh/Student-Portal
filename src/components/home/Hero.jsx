@@ -24,7 +24,7 @@ export default function Hero() {
   
         {/* SUB TEXT */}
         <p className="mt-4 text-sm md:text-base text-gray-500 max-w-xl">
-          Great students deserve a system that does it all —
+          Great students deserve a  system that does it all —
           from managing courses and notes to tracking
           assignments and performance.
         </p>
